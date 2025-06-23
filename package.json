@@ -1,0 +1,21 @@
+{
+  "name": "notasbackend",
+  "version": "1.0.0",
+  "description": "Back end de notas curso de full stack",
+  "license": "ISC",
+  "author": "Leonel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
