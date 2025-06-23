@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const app = express()
 app.use(express.json())
-
+app.use(express.static('dist'))
 /* middleware */ 
 const unknownEndpoint = (request, response) => {
   response.status(404).send({ error: 'unknown endpoint' })
